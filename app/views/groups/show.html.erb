@@ -6,7 +6,7 @@
   <% end %>
 </div>
   <h2><%= @group.title %></h2>
-  
+
   <p><%= @group.description %></p>
 </div>
 <p><%= @group.description %></p>
@@ -29,3 +29,7 @@
     <% end %>
   </tbody>
 </table>
+
+<div class="text-center">
+  <%= will_paginate @posts %>
+<%= will_paginate @posts %>
